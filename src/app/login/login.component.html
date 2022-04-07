@@ -1,0 +1,18 @@
+<div class="container col-md-5">
+    <h1 style="color: blueviolet;">Login</h1>
+    <form class="col-5" (ngSubmit)="validateCredentials()">
+      <div class="mb-3">
+        <label for="forminputcontrol1" class="form-label">User Name</label>
+        <input type="text" [(ngModel)]="user.userName" class="form-control" id="userName" name="userName">
+      </div>
+      <div class="mb-3">
+        <label for="forminputcontrol1" class="form-label">Password</label>
+        <input type="password" [(ngModel)]="user.password" class="form-control" id="password" name="password">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+      </div>
+  
+    </form>
+  </div>
+  <router-outlet></router-outlet>
