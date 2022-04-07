@@ -1,6 +1,6 @@
 # JwtUIClient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+This is Client(Angular) app which access spring-security-jwt-app(SpringBoot) via Rest Calls.
 
 ## Development server
 
